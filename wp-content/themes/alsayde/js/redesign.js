@@ -4,8 +4,16 @@
   if (toggle && header) {
     toggle.addEventListener("click", function () {
       var open = header.classList.toggle("is-open");
+      document.documentElement.classList.toggle("nav-open", open);
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
+    var closeNav = function () {
+      header.classList.remove("is-open");
+      document.documentElement.classList.remove("nav-open");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+    header.querySelectorAll(".nav a").forEach(function (a) { a.addEventListener("click", closeNav); });
+    window.addEventListener("resize", function () { if (window.innerWidth > 1180) closeNav(); });
   }
 
   document.querySelectorAll(".subtoggle").forEach(function (button) {
@@ -20,6 +28,7 @@
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape" && header) {
       header.classList.remove("is-open");
+      document.documentElement.classList.remove("nav-open");
       if (toggle) toggle.setAttribute("aria-expanded", "false");
       var search = document.querySelector(".search-form");
       if (search) search.classList.remove("is-open");
