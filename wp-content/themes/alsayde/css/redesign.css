@@ -447,3 +447,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 [dir="rtl"] .nav .sub, [dir="rtl"] .nav .sub-menu { left: auto; right: 0; }
 [dir="rtl"] .facts li + li { border-left: 0; border-right: 1px solid var(--gold-line); }
 [dir="rtl"] .page-body { text-align: start; }
+
+/* Gallery plugin: its hover-title overlay is absolutely positioned and was covering the whole page (and the header buttons) */
+.bwg-item, .bwg-item0, .bwg-item1, .bwg-item2 { position: relative; }
+.bwg-title1 { pointer-events: none; }
+.site-header { z-index: 1000; }
