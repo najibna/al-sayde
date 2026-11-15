@@ -100,9 +100,11 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   width: 52px; height: 52px; border-radius: 50%; object-fit: cover;
   box-shadow: 0 0 0 2px var(--navy-950), 0 0 0 3.5px var(--gold-500);
 }
-.brand-lines { display: flex; flex-direction: column; }
-.brand-1 { font-size: 18px; line-height: 1.1; }
-.brand-2, .brand-3 { font-size: 9.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-on-navy-muted); }
+.brand-lines { display: flex; flex-direction: column; gap: 1px; }
+.brand-1, .brand-2, .brand-3 {
+  font-family: Cinzel, "Times New Roman", serif; font-size: 16px; font-weight: 600; line-height: 1.15;
+  letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-on-navy); white-space: nowrap;
+}
 
 .nav { display: flex; align-items: center; flex: 1 1 auto; min-width: 0; }
 .nav > ul { display: flex; align-items: center; gap: 2px; flex-wrap: wrap; }
@@ -330,7 +332,6 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 @media (max-width: 1180px) {
   .menu-toggle { display: grid; margin-inline-start: auto; }
-  .brand-2, .brand-3 { display: none; }
   .hero { min-height: auto; }
   .nav {
     display: none; position: fixed; inset: 68px 0 0 auto; width: min(360px, 100%);
@@ -353,6 +354,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 @media (max-width: 700px) {
   .facts { grid-template-columns: 1fr; }
   .facts li + li { border-left: 0; border-top: 1px solid var(--gold-line); }
+  .brand-1 { font-size: 15px; }
   .brand-2, .brand-3 { display: none; }
   .hero { min-height: auto; }
   .hero h1 { max-width: 16ch; }
