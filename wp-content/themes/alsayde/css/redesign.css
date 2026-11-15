@@ -101,6 +101,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   box-shadow: 0 0 0 2px var(--navy-950), 0 0 0 3.5px var(--gold-500);
 }
 .brand-lines { display: flex; flex-direction: column; gap: 1px; }
+.site-header .brand-lines { display: none; }
 .brand-1, .brand-2, .brand-3 {
   font-family: Cinzel, "Times New Roman", serif; font-size: 16px; font-weight: 600; line-height: 1.15;
   letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-on-navy); white-space: nowrap;
