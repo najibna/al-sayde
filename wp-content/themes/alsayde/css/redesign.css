@@ -332,7 +332,10 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .copy a { display: inline; color: var(--text-on-navy); }
 
 @media (max-width: 1180px) {
-  .menu-toggle { display: grid; margin-inline-start: auto; }
+  .menu-toggle { display: grid; order: 3; margin-inline-start: 0; }
+  .tools { order: 2; margin-inline-start: auto; }
+  .header-inner { gap: 8px; }
+  .site-header:not(.is-stuck):not(.is-open) { background: linear-gradient(180deg, rgba(4,19,46,0.92) 0%, rgba(4,19,46,0.55) 60%, rgba(4,19,46,0) 100%); }
   .hero { min-height: auto; }
   .site-header.is-open { position: fixed; height: 68px; background: var(--navy-950); border-bottom: 1px solid var(--gold-line); }
   .nav {
@@ -358,7 +361,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   .nav > ul > li:focus-within > .sub, .nav li:focus-within > .sub-menu { display: none; }
   .nav > ul > li.is-open:focus-within > .sub, .nav li.is-open:focus-within > .sub-menu { display: block; }
   .sub a, .nav .sub-menu a { padding: 13px 8px; font-size: 16px; }
-  .tools { gap: 4px; }
+  .tools { gap: 2px; }
+  .langs { gap: 10px; margin-inline-end: 4px; }
   .search-form.is-open { position: absolute; top: 72px; right: 16px; }
   .story-grid { grid-template-columns: 1fr; }
   .story img.photo { height: 280px; }
@@ -368,6 +372,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   .facts { grid-template-columns: 1fr; }
   .facts li + li { border-left: 0; border-top: 1px solid var(--gold-line); }
   .brand-1 { font-size: 15px; }
+  .medallion { width: 46px; height: 46px; }
   .brand-2, .brand-3 { display: none; }
   .hero { min-height: auto; }
   /* Mobile: show the photo as a portrait band above the text so the clergy on the left stay visible */
