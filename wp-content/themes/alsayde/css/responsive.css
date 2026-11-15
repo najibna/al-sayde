@@ -1,0 +1,599 @@
+
+@media only screen and (min-width:200px) and (max-width:767px) {
+	
+	header .pull-right {
+	padding-right: 15px;
+}
+	#big_footer ul.social li::before {
+	width: 100%;
+	
+}
+	
+	#big_footer ul.social li::after {
+	width: 100%;
+	
+}
+	
+	#Events .calendar_area img {
+	width: 100%;
+}
+	
+	header .top_area {
+	
+	padding: 11px 25px 13px;
+}
+	
+img.alignnone.size-full {
+    width: 100% !important;
+    display: block;
+		height: auto;
+    margin: 0px auto;
+}
+	
+	.stellarnav.light li a{
+		position: none;
+	}
+	
+}
+
+/*@media only screen and (max-width: 678px) {
+	
+	
+	
+}*/
+
+@media only screen and (min-width:200px) and (max-width:319px) {}
+
+@media only screen and (min-width:200px) and (max-width:479px) {
+	header .top_area ul.log {
+	width: 100%;
+	margin: 7px 0 0 0;
+	text-align: center;
+}
+	
+	header .top_area ul.search {
+	width: 100%;
+	text-align: center;
+}
+	
+	header .top_area ul.search li {
+	width: auto;
+	margin: 7px 0;
+}
+	
+	header .top_area ul.search li:last-child {
+	width: 100%;
+}
+	
+	header .top_area ul.search li .input-group {
+	display: block;
+}
+	.input-group .form-control {
+	width: 100% !important;
+}
+	
+	header .menu_area .logo_area {
+	width: 110px;
+	height: 110px;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+	
+	header .menu_area .logo_area img{
+		width: 100%;
+	}
+	
+	
+	#banner-carousel .owl-controls .owl-nav .owl-prev, #banner-carousel .owl-controls .owl-nav .owl-next {
+	width: 30px;
+	height: 75px;
+	font-size: 40px;
+	line-height: 75px;
+}
+	
+	#Saint_Mary_area .headline h1 {
+	font-size: 32px;
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, .3);
+}
+	
+	#Saint_Mary_area .headline p {
+	font-size: 21px;
+}
+	
+	#Get_to_know .headline h2, #Events .headline h2 {
+	font-size: 25px;
+}
+	
+	#events-carousel .btn-green{
+		margin-bottom: 30px;
+	}
+	
+	.Subscribe_area .input-group {
+	display: block;
+}
+	
+	#Subscribe .Subscribe_area .btn-green {
+	margin-top: 15px;
+}
+	
+	#events-carousel .owl-controls .owl-nav .owl-prev {
+	left: 10px;
+}
+	#events-carousel .owl-controls .owl-nav .owl-next {
+	right: 10px;
+}	
+	
+	#big_footer ul.menu li {
+	padding: 0 11px;
+}
+
+#bannerText {/*  top: 10%; */ bottom: 0; 
+position: relative; top: 15px;}
+#bannerText p{ font-size: 12px }
+	#bannerText p{background:#125697;}
+	
+	
+	.give-me-freedom li:after{
+	
+	left: 32%;
+}
+
+.give-me-sunshine{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.give-me-sunshine li{
+	position: relative;
+}
+
+.give-me-sunshine li:nth-child(1):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(2):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(3):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(4):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(5):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(6):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(7):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(8):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(9):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(10):after{
+	left: 32%;
+}
+	
+}
+
+@media only screen (min-width:375px){
+	.give-me-freedom li:after{
+	
+	left: 32%;
+}
+
+.give-me-sunshine{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.give-me-sunshine li{
+	position: relative;
+}
+
+.give-me-sunshine li:nth-child(1):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(2):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(3):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(4):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(5):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(6):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(7):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(8):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(9):after{
+	left: 32%;
+}
+.give-me-sunshine li:nth-child(10):after{
+	left: 32%;
+}
+}
+@media only screen (max-width:667px) {
+	.give-me-freedom li:after{
+	
+	left: 42%;
+}
+
+.give-me-sunshine{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.give-me-sunshine li{
+	position: relative;
+}
+
+.give-me-sunshine li:nth-child(1):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(2):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(3):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(4):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(5):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(6):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(7):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(8):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(9):after{
+	left: 42%;
+}
+.give-me-sunshine li:nth-child(10):after{
+	left: 42%;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+	
+	header .top_area ul.log {
+	width: 100%;
+	text-align: center;
+	margin: 7px 0 0 0;
+}
+	
+	header .top_area ul.search {
+	padding: 10px 0 0 1%;
+display: block;
+width: 100%;
+text-align: center;
+}
+	
+	header .top_area ul.search li a {
+	padding: 7px 6px;
+	font-size: 11px;
+}
+	
+	header .form-control {
+	width: 223px !important;
+}
+	
+	header .menu_area .logo_area {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: transparent;
+	padding: 13px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	z-index: 9;
+}
+	
+	header .menu_area .logo_area img{
+		width: 100%;
+	}
+	
+	.stellarnav {
+	padding: 40px 0 15px;
+}
+	
+	#banner-carousel .owl-controls .owl-nav .owl-prev, #banner-carousel .owl-controls .owl-nav .owl-next {
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 30px;
+	height: 80px;
+	font-size: 35px;
+	color: #fff;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	line-height: 80px;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
+	
+	#Saint_Mary_area .headline h1 {
+	font-size: 28px;
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, .4);
+}
+	
+	#Saint_Mary_area .headline p {
+	font-size: 21px;
+}
+	
+	#Get_to_know .headline h2, #Events .headline h2, #Events .headline h2 {
+	font-size: 24px;
+	
+}
+	
+	#Events .calendar_area img {
+    width: 100%;
+}
+	
+	#events-carousel .owl-controls .owl-nav .owl-prev {
+	left: 10px;
+}
+	#events-carousel .owl-controls .owl-nav .owl-next {
+	right: 10px;
+}
+	
+header .pull-right {
+    padding-right: 25px;
+padding-left: 25px;
+}
+	
+header .pull-right .input-group {
+    display: block;
+}	
+	header .form-control{
+		width: 100% !important;
+	}
+	
+	
+	#events-carousel .btn-green {
+	
+	margin-bottom: 30px;
+}
+	
+	#Subscribe .Subscribe_area .btn-green {
+	padding: 14px 53px;
+}
+	
+	header .top_area ul.search li a img.urd-img {
+    width: 39px;
+}
+	
+	header .top_area ul.search li a {
+	padding: 7px 5px;
+	font-size: 10px;
+}
+	
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+	.stellarnav li a {
+	font-size: 12px;
+}
+	
+	
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	
+	header .pull-right {
+    padding-right: 8px;
+}
+	header .top_area ul.log {
+	width: 28%;
+	margin: 7px 0 0 0;
+}
+	
+	header .top_area ul.log li a {
+	padding: 5px 5px 5px 5px;
+	font-size: 12px;
+}
+	
+	header .top_area ul.log li a img {
+	margin-left: 0;
+	position: relative;
+	margin-top: -2px;
+	width: 27px;
+}
+	
+	header .top_area ul.search {
+	width: 68%;
+	display: inline-flex;
+}
+	
+	header .top_area ul.search li a {
+	padding: 7px 5px;
+	font-size: 9px;
+}
+	
+	header .top_area ul.search li a img.urd-img{
+		width: 39px;
+	} 
+	
+	header .top_area ul.log li:first-child::after {
+	width: 1px;
+	
+}
+	
+
+	header .menu_area .logo_area img{
+		width: 100%;
+	}
+	
+	header .menu_area .logo_area {
+	width: 145px;
+	height: 145px;
+	z-index: 9999;
+}
+	
+	.stellarnav {
+	padding: 30px 0 15px;
+}
+	
+	#banner-carousel .owl-controls .owl-nav .owl-prev, #banner-carousel .owl-controls .owl-nav .owl-next {
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 40px;
+	height: 100px;
+	font-size: 45px;
+	color: #fff;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	line-height: 100px;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
+	
+	#Saint_Mary_area .headline h1 {
+	font-size: 30px;
+}
+	
+	#Saint_Mary_area .headline p {
+	font-size: 22px;
+}
+	
+	
+	#Get_to_know .headline h2, #Events .headline h2, #Events .headline h2 {
+	font-size: 26px;
+}
+	
+	#Subscribe .Subscribe_area .btn-green {
+	
+	padding: 14px 53px;
+	
+}
+	
+	
+	
+}
+
+/********************@media only screen and (min-width:1024px) and (max-width:1200px)********************/
+
+
+@media (min-width:992px) and (max-width:1199px) {
+	header .top_area ul.log {
+	width: 23%;
+	margin: 7px 0 0 0;
+}
+	
+	header .top_area ul.log li a {
+	padding: 5px 7.5px 5px 5px;
+	font-size: 10.5px;
+}
+	
+	header .top_area ul.search {
+	width: 68%;
+	display: flex;
+}
+	
+	
+	header .top_area ul.search li a {
+	padding: 6px 8px;
+}
+	
+	header .menu_area .logo_area {
+	width: 164px;
+	height: 164px;
+}
+	
+	header .menu_area .logo_area img{
+		width: 100%;	
+	}
+	
+	.stellarnav > ul > li {
+	padding: 0px 14px 0 14px;
+}
+	
+	#Get_to_know .organizations .organizations_details h3 {
+	font-size: 19px;
+}
+	
+	#Events .calendar_area img{
+		width: 100%;
+	}
+	
+	#events-carousel h3 {
+	font-size: 16px;
+	line-height: 20px;
+	
+}
+	#events-carousel h4 {
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 3px;
+}
+	
+	#events-carousel p {
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+	
+	#Subscribe .Subscribe_area .btn-green {
+	padding: 14px 53px;
+}
+	header .pull-right {
+    padding-right: 5px;
+}
+	
+	.stellarnav li a {
+	font-size: 13px;
+}
+	
+	
+}
+
+	
+/********************@media only screen and (min-width:1201px)********************/
+
+@media only screen and (max-width : 768px) {
+		.stellarnav.light li a::before {
+  bottom: 0;
+  height: 1px;
+  left: 0;
+  right: auto;
+}
+	
+	.stellarnav .menu-toggle, .stellarnav .close-menu, .stellarnav .call-btn-mobile, .stellarnav .location-btn-mobile {
+	display: none;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: right;
+	margin-bottom: 10px;
+		font-size: 18px;
+}
+	
+	.stellarnav.mobile > ul > li > a {
+	padding: 10px 15px;
+	font-size: 14px;
+}
+}
+	
+
+/********************@media only screen and (min-width:1201px)********************/
