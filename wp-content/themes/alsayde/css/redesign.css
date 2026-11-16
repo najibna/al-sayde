@@ -452,3 +452,11 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .bwg-item, .bwg-item0, .bwg-item1, .bwg-item2 { position: relative; }
 .bwg-title1 { pointer-events: none; }
 .site-header { z-index: 1000; }
+
+/* Footer brand: logo beside the name (the generic footer link rule was stacking them and the logo ring overlapped the text) */
+.footer .brand { display: flex; align-items: center; gap: 16px; padding: 4px 0; margin-bottom: 18px; }
+.footer .brand .medallion { flex: none; }
+.footer .brand-2, .footer .brand-3 { display: block; }
+.footer .brand-lines { min-width: 0; }
+.footer .brand-1, .footer .brand-2, .footer .brand-3 { white-space: normal; }
+.footer .brand-2, .footer .brand-3 { font-size: 12px; letter-spacing: 0.06em; }
